@@ -25,7 +25,7 @@
       "total": 672
     },
     "api_football_injuries": {
-      "budget_remaining_at_start": 57,
+      "budget_remaining_at_start": 60,
       "stopped_early": "stopped after repeated API errors: sidelined {'player': 195121}: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}",
       "teams_found": 20,
       "teams_total": 20,
@@ -62,8 +62,8 @@
         "injury: Injury x15",
         "injury: Leg Injury x14"
       ],
-      "budget_remaining_at_end": 54,
-      "staleness_warning": "newest injury record ends 2026-07-20, over 120 days before 2026-11-19: the plan or source may not include recent injuries"
+      "budget_remaining_at_end": 57,
+      "staleness_warning": "newest injury record ends 2026-07-20, over 120 days before 2026-11-20: the plan or source may not include recent injuries"
     },
     "roles": {
       "model": "/home/runner/work/PL-Scouting-ML-Platform/PL-Scouting-ML-Platform/models/roles.joblib",
@@ -74,11 +74,11 @@
   },
   "warnings": [
     "API-Football injuries: stopped after repeated API errors: sidelined {'player': 195121}: {'access': 'Your account is suspended, check on https://dashboard.api-football.com.'}",
-    "API-Football injuries: newest injury record ends 2026-07-20, over 120 days before 2026-11-19: the plan or source may not include recent injuries",
+    "API-Football injuries: newest injury record ends 2026-07-20, over 120 days before 2026-11-20: the plan or source may not include recent injuries",
     "API-Football injuries: 188 matched players still waiting for their history (they use the availability proxy until loaded)"
   ],
-  "generated_at": "2026-11-19T14:27:57+00:00",
-  "reference_date": "2026-11-19",
+  "generated_at": "2026-11-20T14:02:49+00:00",
+  "reference_date": "2026-11-20",
   "n_players": 672,
   "by_position": {
     "MID": 299,
